@@ -20,7 +20,6 @@ job('nodejs job')
 
     }
     steps{
-        shell('cat job-dsl\nodejs.groovy')
         shell('npm test')
 
     }
